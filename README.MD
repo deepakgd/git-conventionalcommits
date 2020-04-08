@@ -7,6 +7,7 @@ Follow below steps
 ```sh
 $ cd project
 $ yarn add commitizen @commitlint/cli @commitlint/config-conventional husky -D
+$ git init
 $ npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 2. Open package.json and add like below
